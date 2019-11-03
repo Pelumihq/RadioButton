@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LakinActivity"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Which color stands for agriculture in the Nigeria flag?"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroupInput">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="blue"
+            android:buttonTint="@android:color/holo_blue_light"
+            android:textColor="@android:color/holo_blue_light"
+            android:textStyle="bold"
+            android:id="@+id/blue"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="red"
+            android:buttonTint="@android:color/holo_red_light"
+            android:textColor="@android:color/holo_red_light"
+            android:textStyle="bold"
+            android:id="@+id/red"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="green"
+            android:buttonTint="@android:color/holo_green_light"
+            android:textColor="@android:color/holo_green_light"
+            android:textStyle="bold"
+            android:id="@+id/green"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="orange"
+            android:buttonTint="@android:color/holo_orange_light"
+            android:textColor="@android:color/holo_orange_light"
+            android:textStyle="bold"
+            android:id="@+id/orange"/>
+    </RadioGroup>
+
+
+</LinearLayout>
